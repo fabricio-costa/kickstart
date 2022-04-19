@@ -9,7 +9,7 @@ if (typeof window !== 'undefined' && typeof window.ethereum !== 'undefined') {
 } else {
 	// We are on the server *OR* the user is not running metamask
 	const provider = new Web3.providers.HttpProvider(
-	 'https://rinkeby.infura.io/v3/a5376359dda84675ae81b1664d7721dc'
+	 'https://rpc.testnet.cloudwalk.io'
 	);
 	web3 = new Web3(provider);
 }

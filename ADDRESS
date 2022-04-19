@@ -13,4 +13,4 @@ Attempting to deploy from account 0x70Ba7d3031e979DC96E57022D61b6FC3c355143D
 
 [{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"deployedCampaigns","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getDeployedCampaigns","outputs":[{"name":"","type":"address[]"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"minimum","type":"uint256"}],"name":"createCampaign","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]
 
-Contract deployed to 0xAdC28E58d8F6A34e02eA672A8bd36301f96365b2
+Contract deployed to 0xa0fB49B273da19F00486aA7c047Bd287CC6c0519

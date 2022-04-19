@@ -4,7 +4,7 @@ const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
   'inner grab you daring dune control any extra ring rib man keep',
-  'https://rpc.testnet.cloudwalk.io'     //'https://rinkeby.infura.io/v3/a5376359dda84675ae81b1664d7721dc'
+  'https://rinkeby.infura.io/v3/a5376359dda84675ae81b1664d7721dc'
 );
 const web3 = new Web3(provider);
 
@@ -22,3 +22,7 @@ const deploy = async () => {
   provider.engine.stop();
 };
 deploy();
+
+
+//'https://rpc.testnet.cloudwalk.io'     
+//'https://rinkeby.infura.io/v3/a5376359dda84675ae81b1664d7721dc'
